@@ -1,0 +1,23 @@
+.footer__copyrigth {
+  font-family: "inter-regular";
+  text-align: center;
+  top: 1968px;
+  left: 543px;
+  margin: 92px auto 0;
+  padding-bottom: 24px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__copyrigth {
+    margin: 0 287px 24px;
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer__copyrigth {
+    width: 194px;
+    height: 14px;
+    margin-left: 63px;
+  }
+}

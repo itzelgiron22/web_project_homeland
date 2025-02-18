@@ -1,0 +1,66 @@
+.intro {
+  margin-top: 94px;
+  margin-left: 148px;
+  width: 830px;
+  height: 607px;
+}
+
+.intro__title {
+  line-height: 58px;
+  font-family: "interblack";
+  font-size: 3.3rem;
+}
+
+.intro__quote {
+  font-family: "inter-regular";
+  font-size: 1.5rem;
+  line-height: 34px;
+}
+
+.intro__signature {
+  font-family: "inter-regular";
+  font-size: 1.5rem;
+  line-height: 34px;
+  text-align: right;
+}
+
+.intro__text {
+  font-family: "inter-regular";
+  font-size: 1rem;
+  line-height: 163%;
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    text-align: left;
+    width: 720px;
+    height: 573px;
+    margin-top: 64px;
+  }
+
+  .intro__title {
+    font-size: 2.8rem;
+    line-height: 49px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro {
+    text-align: left;
+    width: 288px;
+    height: 1033px;
+    margin: 64px 16px 64px;
+  }
+
+  .intro__title {
+    height: 175px;
+    font-size: 32px;
+    line-height: 35px;
+  }
+
+  .intro__quote {
+    font-family: "inter-regular";
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
